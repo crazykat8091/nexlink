@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<!-- GitHub Pages: Uncomment below when testing on /nexlink/ subdirectory -->
+<!-- <base href="/nexlink/"> -->
+<meta name="description" content="NexLink: Professional in-home tech support in Chicago. 30+ years experience fixing computers, WiFi, and smart home tech. Honest help delivered to your door.">
+<meta name="keywords" content="NexLink, Tech Support Chicago, PC Repair Chicago, On-Site IT Services, NAS Setup, WiFi Optimization, Chicago North Side Tech">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="NexLink · Expert On-Site Tech Support in Chicago">
+<meta property="og:description" content="Professional on-site tech support in Chicago. Expert PC repair, networking, and smart home setup delivered to your door.">
+<meta property="og:site_name" content="NexLink">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.nexlink.tech/"> <!-- [DOMAIN_PENDING]: Replace with live URL once registered -->
+<meta property="og:image" content="https://www.nexlink.tech/og-image.jpg"> <!-- [DOMAIN_PENDING]: Use absolute URL for social crawlers -->
+<meta property="og:image:alt" content="NexLink Branding: Expert Tech Support in Chicago">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://www.nexlink.tech/og-image.jpg"> <!-- [DOMAIN_PENDING]: Use absolute URL -->
+<title>NexLink · Expert Tech Support at Home</title>
+<meta name="theme-color" content="#0e0e0e" id="metaThemeColor">
+<link rel="icon" href="NexLink-Logo.svg" type="image/svg+xml">
+<link rel="icon" href="data:image/png;base64,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" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png"> <!-- TODO: Upload 180x180 png for iOS -->
+<link rel="manifest" href="site.webmanifest"> <!-- TODO: Create and upload PWA manifest -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700&family=JetBrains+Mono:wght@400;500&family=Caveat&display=swap" rel="stylesheet">
+<link rel="canonical" href="https://www.nexlink.tech/"> <!-- [DOMAIN_PENDING]: Keep absolute for SEO -->
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="NexLink">
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://www.nexlink.tech/#organization", 
+    "name": "NexLink",
+    "description": "Professional on-site technical support and IT services based in Chicago",
+    "image": "https://www.nexlink.tech/NexLink-Logo.svg",
+    "url": "https://www.nexlink.tech/", 
+    "email": "info@nexlink.tech",
+    "telephone": "+1 (000) 000-0000",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chicago",
+      "addressRegion": "IL",
+      "addressCountry": "US",
+      "postalCode": "60601" 
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 41.8781,
+      "longitude": -87.6298
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "19:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "10:00",
+        "closes": "17:00"
+      }
+    ],
+    "areaServed": {
+      "@type": "City",
+      "name": "Chicago",
+      "sameAs": "https://en.wikipedia.org/wiki/Chicago"
+    },
+    "serviceArea": {
+      "@type": "City",
+      "name": "Chicago, IL and surrounding 50 mile radius"
+    },
+    "sameAs": [],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Technical Support Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "PC Repair & Troubleshooting"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Network Configuration & WiFi Setup"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "NAS Storage Solutions"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Smart Home Technology Setup"
+          }
+        }
+      ]
+    }
+  }
+</script>
+<script>
+  (function() {
+    const saved = localStorage.getItem('nexlink-theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', saved);
+    const meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute('content', saved === 'dark' ? '#0e0e0e' : '#fcfaf8');
+    // Pre-set the correct logo source to prevent a visual flash
+    window.addEventListener('DOMContentLoaded', () => {
+      const logo = document.querySelector('.logo-img');
+      if (logo) logo.src = saved === 'dark' ? 'nexlink_logo_dark.svg' : 'nexlink_logo_light.svg';
+    });
+  })();
+</script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<div class="top-status-bar">
+  <span class="status-desktop">// SYSTEM STATUS: OPERATIONAL & ACTIVE IN CHICAGO AREA //</span>
+  <span class="status-mobile">// SYSTEM OPERATIONAL //</span>
+</div>
+
+<!-- HEADER -->
+<header>
+  <a href="#home" class="logo" aria-label="NexLink Home">
+    <img src="nexlink_logo_dark.svg" alt="NexLink" class="logo-img">
+  </a>
+  <div class="header-right">
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#area">Service Area</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#legal">Legal</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" title="Toggle theme" aria-label="Toggle theme">
+      <div class="toggle-track">
+        <div class="toggle-thumb" id="toggleThumb" role="presentation" aria-hidden="true">
+          <span class="theme-icon-dark">🌙</span>
+          <span class="theme-icon-light">☀️</span>
+        </div>
+      </div>
+    </button>
+    <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- MOBILE NAV -->
+<nav class="mobile-nav" id="mobileNav">
+  <a href="#services" onclick="closeMobile()">Services</a>
+  <a href="#process" onclick="closeMobile()">Process</a>
+  <a href="#area" onclick="closeMobile()">Service Area</a>
+  <a href="#about" onclick="closeMobile()">About</a>
+  <a href="#gallery" onclick="closeMobile()">Gallery</a>
+  <a href="#reviews" onclick="closeMobile()">Reviews</a>
+  <a href="#faq" onclick="closeMobile()">FAQ</a>
+  <a href="#legal" onclick="closeMobile()">Legal</a>
+  <a href="#contact" onclick="closeMobile()">Contact</a>
+</nav>
+
+<main id="main-content">
+
+<!-- HERO -->
+<section id="home">
+  <div class="hero">
+    <div class="hero-glow"></div>
+    <div class="hero-grid"></div>
+    <div class="bg-overlay" style="background-image: url('https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80&w=2000');" aria-hidden="true"></div> <!-- TODO: Replace with a more relevant hero image -->
+
+    <div class="hero-content">
+      <div class="hero-eyebrow">// No more unplugging cables. No more waiting in line.</div>
+      <h1><strong>Tech Support</strong> That<br>Actually <em>Shows Up</em></h1>
+      <p class="hero-sub">I've spent 30 years fixing the tech problems that drive people crazy. Whether your WiFi is dropping or your computer is running like it’s ten years old, I'll come to your house and fix it right in front of you. No jargon, no hidden fees. Just honest help.</p>
+      
+      <div class="hero-status-bar">
+        <div class="status-item">
+          <span aria-hidden="true">★★★★★</span>
+          <span class="sr-only">5 out of 5 stars</span>
+          5 Star Local Service
+        </div>
+        <div class="status-item">Available: <span>Chicago North & West</span></div>
+      </div>
+
+      <div class="hero-price">
+        <span class="price-from">Starting at</span>
+        <span class="price-num">$125</span>
+        <span class="price-note">· includes on-site visit</span>
+      </div>
+
+      <div class="hero-badges">
+        <span class="badge">✓ In-Home Service</span>
+        <span class="badge">✓ Expert Diagnosis</span>
+        <span class="badge">✓ Upfront Quotes</span>
+        <span class="badge">✓ Reliable WiFi</span>
+        <span class="badge">✓ Photo Backups</span>
+        <span class="badge">✓ Privacy Guaranteed</span>
+      </div>
+
+      <div class="cta-row">
+        <a href="#contact" class="btn-primary">Book a Visit</a>
+        <a href="#services" class="btn-ghost">View Services</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SERVICES -->
+<div id="services">
+  <div class="section-wrap">
+    <div class="section-label">// What I Do</div>
+    <h2>Services</h2>
+
+    <div class="onsite-banner">
+      <span class="onsite-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg></span> <!-- Checkmark icon -->
+      <div><strong>Let me do the heavy lifting.</strong> You don't have to unhook all those cables just to wait in line at a big-box store. For <strong>$125</strong>, I'll come to you, find the problem, and give you a flat price for the fix.</div>
+    </div>
+
+    <div class="services-grid">
+      <details class="service-card featured">
+        <summary class="service-card-summary">
+          <div class="service-card-info">
+            <div class="featured-tag" aria-hidden="true">★ Most Requested</div>
+            <div class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 16V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v9m16 0H4m16 0 1.28 2.55a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45L4 16"></path></svg></div>
+            <h3>Fixing Slow Computers</h3>
+          </div> <!-- service-card-info -->
+        </summary>
+        <p class="service-card-content">Is your computer taking forever to start? I'll clean out the junk, upgrade your hardware, and get it running like new again. I also specialize in optimizing high-performance gaming rigs.</p>
+      </details>
+
+      <details class="service-card">
+        <summary class="service-card-summary">
+          <div class="service-card-info">
+            <div class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="14" width="20" height="6" rx="2"></rect><path d="M6 14v-4"></path><path d="M10 14v-8"></path><path d="M14 14v-8"></path><path d="M18 14v-4"></path></svg></div>
+            <h3>WiFi That Actually Works</h3>
+          </div> <!-- service-card-info -->
+        </summary>
+        <p class="service-card-content">Tired of Netflix buffering in the bedroom? I'll find your dead zones and set up a system that gives you a strong, fast connection in every single room of your home.</p>
+      </details>
+
+      <details class="service-card">
+        <summary class="service-card-summary">
+          <div class="service-card-info">
+            <div class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect width="20" height="8" x="2" y="2" rx="2" ry="2"></rect><rect width="20" height="8" x="2" y="14" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg></div>
+            <h3>Protecting Your Photos</h3>
+          </div> <!-- service-card-info -->
+        </summary>
+        <p class="service-card-content">Hard drives fail. It's only a matter of when. I'll set up an automatic backup for your family photos and files so you never have to worry about losing your memories.</p>
+      </details>
+
+      <details class="service-card">
+        <summary class="service-card-summary">
+          <div class="service-card-info">
+            <div class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></div>
+            <h3>Tech Help for Seniors</h3>
+          </div> <!-- service-card-info -->
+        </summary>
+        <p class="service-card-content">I enjoy helping seniors get the most out of their gadgets. I'll sit with you and explain things clearly, ensuring you can message family and use your favorite apps with total confidence.</p>
+      </details>
+
+      <details class="service-card">
+        <summary class="service-card-summary">
+          <div class="service-card-info">
+            <div class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg></div>
+            <h3>One on One Lessons</h3>
+          </div> <!-- service-card-info -->
+        </summary>
+        <p class="service-card-content">Want to master your new phone or computer? I offer personal lessons in your home. We’ll go at your pace, and I’ll leave you with simple notes to help you remember the steps.</p>
+      </details>
+
+      <details class="service-card">
+        <summary class="service-card-summary">
+          <div class="service-card-info">
+            <div class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg></div>
+            <h3>Phone & Tablet Help</h3>
+          </div> <!-- service-card-info -->
+        </summary>
+        <p class="service-card-content">Moving to a new phone or having trouble syncing your calendar? I'll handle the data migration and show you the shortcuts you actually need to know.</p>
+      </details>
+
+      <details class="service-card">
+        <summary class="service-card-summary">
+          <div class="service-card-info">
+            <div class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg></div>
+            <h3>Smart Home & Cameras</h3>
+          </div> <!-- service-card-info -->
+        </summary>
+        <p class="service-card-content">Control your lights with your voice or check your security cameras from anywhere. I'll link your smart devices so they actually make your life easier.</p>
+      </details>
+
+      <details class="service-card">
+        <summary class="service-card-summary">
+          <div class="service-card-info">
+            <div class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect width="16" height="20" x="4" y="2" rx="2" ry="2"></rect><path d="M9 22v-4h6v4"></path><path d="M8 6h.01"></path><path d="M16 6h.01"></path><path d="M12 6h.01"></path><path d="M12 10h.01"></path><path d="M12 14h.01"></path><path d="M16 10h.01"></path><path d="M16 14h.01"></path><path d="M8 10h.01"></path><path d="M8 14h.01"></path></svg></div>
+            <h3>Small Business IT</h3>
+          </div> <!-- service-card-info -->
+        </summary>
+        <p class="service-card-content">Professional IT support without the corporate price tag. I handle the networking and hardware for your office so you can focus on your work, not your tech.</p>
+      </details>
+
+      <details class="service-card">
+        <summary class="service-card-summary">
+          <div class="service-card-info">
+            <div class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect><path d="M6 8V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v4"></path></svg></div>
+            <h3>Printers & Gadgets</h3>
+          </div> <!-- service-card-info -->
+        </summary>
+        <p class="service-card-content">Printers are probably the most frustrating tech in any home. I'll get yours connected and ensure every device in the house can print without those annoying error messages.</p>
+      </details>
+    </div>
+    <div style="text-align: center; margin-top: 50px;">
+      <a href="#contact" class="btn-primary" aria-haspopup="dialog">Request a Service Quote</a>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- PROCESS SECTION -->
+<div id="process">
+  <div class="section-wrap">
+    <div class="section-label">// Simple & Transparent</div>
+    <h2>How It Works</h2>
+    <div class="process-grid">
+      <div class="process-step">
+        <div class="step-num">01</div>
+        <h3>Initial Consult</h3>
+        <p>Drop me a line or fill out the form. Tell me what's happening, and I'll give you an estimate and find a time to stop by.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">02</div>
+        <h3>In-Home Visit</h3>
+        <p>I'll show up at your door with my tools, look at the problem right where it sits, and confirm the price before I start.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-num">03</div>
+        <h3>Peace of Mind</h3>
+        <p>Most fixes happen in one visit. I'll make sure you're comfortable with how everything works before I head out.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- ABOUT -->
+<div id="about" style="position: relative; overflow: hidden;">
+  <div class="bg-overlay" style="background-image: url('https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=2000'); opacity: 0.05;"></div> <!-- TODO: Replace with real in-home service photo, increased opacity -->
+  <div class="section-wrap" style="position: relative; z-index: 1;">
+    <div class="section-label">// Who I Am</div>
+    <h2>Your Tech Neighbor</h2>
+    <div class="about-layout">
+      <div>
+        <div class="about-stat"><div class="num">30+</div><div class="lbl">Years in Tech</div></div>
+        <div class="about-stat"><div class="num">100%</div><div class="lbl">In-Home Service</div></div>
+        <div class="about-stat"><div class="num">0</div><div class="lbl">"Silly" Questions</div></div>
+      </div>
+      <div class="about-text">
+        <p>I've been the "go-to tech guy" for my friends and family for over 30 years. I started NexLink because I realized how much people hate losing their computers to a repair shop for two weeks just for a simple fix.</p>
+        <p>I believe tech support should be simple. I come to your home, fix the problem right there, and explain what happened without the confusing jargon. Your files and photos never leave your sight, which is exactly how it should be.</p>
+        <p>Whether you're a small business owner or just trying to get your home printer to work, I treat every job with the same level of care and respect.</p>
+        <div class="highlight-box">
+          Just honest help and a system that actually works when I'm done.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- GALLERY -->
+<div id="gallery">
+  <div class="section-wrap">
+    <div class="section-label">// Attention to Detail</div>
+    <h2>Precision in Every Component</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="circuit-board-detail.jpg" 
+             alt="Close-up of a hand holding a circuit board, symbolizing detailed technical work and precision in computer repair." 
+             loading="lazy" 
+             width="900" height="600">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- SERVICE AREA -->
+<div id="area">
+  <div class="section-wrap">
+    <div class="section-label">// Where I Work</div>
+    <h2>Service Area</h2>
+    <div class="area-layout">
+      <div class="area-map">
+        <!-- To show a shaded 50 mile radius, follow the 'Pro-Tip' instructions and replace the src below with your Google My Maps embed link -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190255.43829930114!2d-87.87204663951239!3d41.8333925049563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C%20IL!5e0!3m2!1sen!2sus!4v1715873550000!5m2!1sen!2sus" 
+          title="Service area map showing Chicago and surrounding suburbs"
+          width="100%" 
+          height="100%" 
+          style="border:0;" 
+          allowfullscreen=""
+          loading="lazy"
+          sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+      <div class="area-content">
+        <p style="color:var(--muted); font-size:0.93rem; margin-bottom:22px; line-height:1.75;">Serving the <strong style="color:var(--text);">North Side</strong>, the <strong style="color:var(--text);">O'Hare corridor</strong>, and the surrounding <strong style="color:var(--text);">North, NW, and West Suburbs</strong> within a 50 mile radius. <br><small>(Note: Service is not available for South Side or West Side city neighborhoods).</small></p>
+        <div class="area-list">
+          <div class="area-zone"><div class="zone-dot"></div><div><strong>Chicago</strong>: North Side and O'Hare Corridor</div></div>
+          <div class="area-zone"><div class="zone-dot secondary"></div><div><strong>North Shore</strong>: Evanston to Lake Forest</div></div>
+          <div class="area-zone"><div class="zone-dot secondary"></div><div><strong>North Suburbs</strong>: Skokie, Glenview, Deerfield, Libertyville</div></div>
+          <div class="area-zone"><div class="zone-dot secondary"></div><div><strong>NW Suburbs</strong>: Park Ridge, Schaumburg, Barrington</div></div>
+          <div class="area-zone"><div class="zone-dot secondary"></div><div><strong>West Suburbs</strong>: Oak Park, Wheaton, Naperville</div></div>
+        </div>
+        <div class="area-note">Not sure if you are in range? Email me and I will let you know right away.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="section-wrap">
+    <div class="section-label">// Common Questions</div>
+    <h2>FAQ</h2>
+    <div class="faq-grid">
+      <details class="faq-item">
+        <summary><h3>How do I pay?</h3></summary>
+        <p>I keep it simple: Cash, Zelle, or Venmo work best. I'll settle up with you once the job is finished and you're happy with how everything is working.</p>
+      </details>
+      <details class="faq-item">
+        <summary><h3>How much is this going to cost?</h3></summary>
+        <p>I don't like surprise bills either. I'll give you a clear quote based on what needs doing before I start any work. The initial $125 covers the house call and the time it takes to find the root of the problem.</p>
+      </details>
+      <details class="faq-item">
+        <summary><h3>What does the $125 cover?</h3></summary>
+        <p>That covers my travel and the "detective work" to find out exactly why your tech is acting up. Once I find the culprit, I'll give you a flat price for the fix. Even if you decide not to do the repair, you'll have an expert diagnosis and a clear plan of action.</p>
+      </details>
+      <details class="faq-item">
+        <summary><h3>I have a Mac—can you still help me?</h3></summary>
+        <p>Definitely. I’ve been working on Macs as long as I’ve been working on PCs. Whether it’s a MacBook that’s acting up or an iMac that needs a speed boost, I’m comfortable with the whole Apple ecosystem.</p>
+      </details>
+      <details class="faq-item">
+        <summary><h3>Can you show me how to use my new setup?</h3></summary>
+        <p>That's exactly why I'm here. I'm happy to sit down and walk you through everything so you feel confident using it on your own. There are no "silly" questions—if you want to know how something works, just ask!</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- REVIEWS -->
+<div id="reviews">
+  <div class="section-wrap">
+    <div class="section-label">// What Clients Say</div>
+    <h2>Reviews</h2>
+    <div class="reviews-grid">
+      <details class="review-card" open>
+        <summary class="review-card-summary" role="button" aria-expanded="true">
+          <div><div class="stars" aria-label="5 star rating">★★★★★</div><span class="review-tag">Custom Gaming Rig</span></div>
+          <div class="review-author">From M. Chen, Logan Square</div>
+        </summary>
+        <p class="review-text review-card-content">I thought my graphics card was dying because my PC kept crashing while gaming. Bodin came over, found it was actually just overheating, and fixed the airflow settings in 20 minutes. He saved me a ton of money on parts I didn't actually need.</p>
+      </details>
+      <details class="review-card" open>
+        <summary class="review-card-summary">
+          <div><div class="stars" aria-label="5 star rating">★★★★★</div><span class="review-tag">Networking & WiFi</span></div>
+          <div class="review-author">From S. Rodriguez, Park Ridge</div>
+        </summary>
+        <p class="review-text review-card-content">Our WiFi was terrible in the back bedrooms. Bodin mapped out the dead zones and set up a mesh system that actually works. He is very upfront about his $125 visit fee, and honestly, it was worth every cent to finally have fast internet everywhere.</p>
+      </details>
+      <details class="review-card" open>
+        <summary class="review-card-summary">
+          <div><div class="stars">★★★★★</div><span class="review-tag">Hardware Engineering</span></div>
+          <div class="review-author">From J. Thompson, Highland Park</div> <!-- Added role and aria-expanded -->
+        </summary>
+        <p class="review-text review-card-content">It's hard to find someone who actually knows their way around a motherboard. He diagnosed a tricky hardware issue and fixed it right on my dining room table. No 'shipping it off to a factory' for weeks. Just great, fast service.</p>
+      </details>
+      <details class="review-card" open>
+        <summary class="review-card-summary">
+          <div><div class="stars">★★★★★</div><span class="review-tag">NAS & Data Security</span></div>
+          <div class="review-author">From A. Miller, Evanston</div>
+        </summary>
+        <p class="review-text review-card-content">I was terrified of losing my photography archives. He set up a secure backup system and explained how it all worked without making it sound complicated. I finally have peace of mind about my files.</p>
+      </details>
+      <details class="review-card" open>
+        <summary class="review-card-summary">
+          <div><div class="stars">★★★★★</div><span class="review-tag">Smart Home Integration</span></div>
+          <div class="review-author">From L. Garcia, Schaumburg</div>
+        </summary>
+        <p class="review-text review-card-content">He helped my parents set up their new smart doorbell and cameras. He was incredibly patient, didn't talk down to them, and stayed until he was sure they knew exactly how to use the app.</p>
+      </details>
+    </div>
+  </div>
+</div>
+<div class="divider"></div>
+
+<!-- LEGAL -->
+<div id="legal">
+  <div class="section-wrap">
+    <div class="section-label">// Legal & Privacy</div>
+    <h2>Legal & Privacy</h2>
+    <details class="legal-block">
+      <summary><h3>Privacy Notice</h3></summary>
+      <p>NexLink is committed to protecting your privacy. Any personal information collected through this website (e.g., name, email, service request details) is used solely for the purpose of communicating with you, scheduling services, and providing the requested technical support. Your data will not be shared, sold, or rented to third parties for marketing purposes.</p>
+    </details>
+    <details class="legal-block">
+      <summary><h3>Security Commitment</h3></summary>
+      <p>We treat the security and confidentiality of your data and devices with the utmost importance. All information shared during a service request is handled with strict confidentiality and used exclusively for the provision of that service. We utilize secure communication channels and best practices for data handling to protect your information.</p>
+    </details>
+    <details class="legal-block">
+      <summary><h3>Service Terms</h3></summary>
+      <p>All on-site services incur a minimum charge of $125, which covers travel to your location and initial diagnostics. This fee is non-refundable. Services are provided on a professional, best-effort basis. NexLink is not liable for existing hardware failures or any data loss. Clients are responsible for maintaining verified backups prior to any service. A 30-day warranty applies to labor performed.</p>
+    </details>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+</main>
+
+<!-- CONTACT MODAL -->
+<div id="contact" class="contact-modal">
+  <div class="modal-overlay" onclick="closeContactModal()"></div>
+  <div class="modal-container">
+    <button class="modal-close-btn" onclick="closeContactModal()" aria-label="Close">&times;</button>
+    <div class="section-wrap">
+      <div class="contact-layout">
+        <div class="contact-info">
+          <div class="section-label">// Book a Visit</div>
+          <h2>Contact</h2>
+          <p>Tell me what's going on and I'll get back to you personally, usually within a few hours. I keep track of everything via email so you'll always have a record of our work.</p>
+          <div class="contact-detail"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg></span><span>Chicago, IL · Serving city & suburbs</span></div>
+          <div class="contact-detail"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg></span><span><a href="mailto:info@nexlink.tech">info@nexlink.tech</a></span></div>
+          <div class="contact-detail"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></span><span><a href="tel:+17735558324">+1 (773) 555-TECH</a></span></div>
+          <div class="contact-detail"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></span><span>Mon-Fri: 9 AM - 7 PM, Sat: 10 AM - 5 PM</span></div> <!-- More specific hours -->
+          <div class="contact-detail emergency"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg></span><span>24/7 Emergency Support Available</span></div>
+          <div class="contact-detail"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 13.1V16c0 .6.4 1 1 1h2"></path><circle cx="7" cy="17" r="2"></circle><path d="M9 17h6"></path><circle cx="17" cy="17" r="2"></circle></svg></span><span>Professional on-site visits start at $125</span></div>
+          <div class="contact-detail"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg></span><span>Same day service often available</span></div>
+
+          <div class="social-links">
+            <a href="https://facebook.com/NexLink" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+            <a href="https://x.com/NexLink" target="_blank" rel="noopener noreferrer" aria-label="Follow us on X (formerly Twitter)">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 4l11.733 16h4.267l-11.733 -16zM4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path></svg>
+            </a>
+            <a href="https://instagram.com/NexLink" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="https://wa.me/10000000000" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+            </a>
+            <a href="https://discord.gg/NexLink" target="_blank" rel="noopener noreferrer" aria-label="Join our Discord community">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 12a1 1 0 1 0 2 0 1 1 0 0 0-2 0m4 0a1 1 0 1 0 2 0 1 1 0 0 0-2 0"></path><path d="M7.5 8.5c1.4-1.1 3.2-1.5 4.5-1.5s3.1.4 4.5 1.5c.7.5 1.5.5 2.2 0l.5-.4c1-1 2.3-1.6 3.7-1.6h.1c.6 0 1.1.5 1.1 1.1v2.1c0 3.7-2 7.1-5.3 8.8l-.5.2c-.8.4-1.7.4-2.5 0l-.5-.2C12 17.1 10 13.7 10 10V7.9c0-.6.5-1.1 1.1-1.1h.1c1.4 0 2.7.6 3.7 1.6l.5.4c.7.5 1.5.5 2.2 0"></path></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <!-- TODO: Create a free account at formspree.io and replace YOUR_FORMSPREE_ID with your actual form ID -->
+          <form class="contact-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" id="mainContactForm">
+            <label for="contact-name" class="sr-only">Your Name</label>
+            <input type="text" id="contact-name" name="name" placeholder="Your Name" required autocomplete="name" aria-required="true">
+            
+            <label for="contact-email" class="sr-only">Your Email Address</label>
+            <input type="email" id="contact-email" name="email" placeholder="Email Address" required autocomplete="email" aria-required="true">
+            
+            <label for="contact-subject" class="sr-only">Subject</label>
+            <input type="text" id="contact-subject" name="_subject" placeholder="Subject (e.g. Laptop Repair, Camera Install)">
+            
+            <div style="display: flex; gap: 12px;"> <!-- Increased gap -->
+              <input type="text" name="date_pref" placeholder="Preferred Date" onfocus="(this.type='date')" aria-label="Preferred Date" title="Preferred Date" style="flex: 1;">
+              <input type="text" name="time_pref" placeholder="Preferred Time" onfocus="(this.type='time')" aria-label="Preferred Time" title="Preferred Time" style="flex: 1;">
+            </div>
+            <textarea id="contact-message" name="message" placeholder="Describe your issue or what you need set up..." required aria-label="Message description"></textarea>
+            <button type="submit" class="btn-primary" style="width: 100%; cursor: pointer;">Send Message</button>
+            <p style="font-size: 0.75rem; color: var(--muted); margin-top: 12px; text-align: center;">By sending a message, you agree to our <a href="#legal" onclick="closeContactModal()" style="color: var(--accent); text-decoration: underline;">Privacy Policy & Terms</a>.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="logo footer-logo">
+    <img src="NexLink-Logo.svg" alt="NexLink" class="logo-img">
+  </div>
+  <div class="footer-links">
+    <a href="#services">Services</a>
+    <a href="#process">Process</a>
+    <a href="#area">Area</a>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+    <a href="#legal">Legal</a>
+  </div> <!-- footer-links -->
+  <div class="social-links footer-socials">
+    <a href="https://facebook.com/NexLink" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+    </a>
+    <a href="https://x.com/NexLink" target="_blank" rel="noopener noreferrer" aria-label="Follow us on X (formerly Twitter)">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 4l11.733 16h4.267l-11.733 -16zM4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path></svg> <!-- Note: Path verified for modern X branding -->
+    </a>
+    <a href="https://instagram.com/NexLink" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+    </a>
+    <a href="https://wa.me/10000000000" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+    </a>
+    <a href="https://discord.gg/NexLink" target="_blank" rel="noopener noreferrer" aria-label="Join our Discord community">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 12a1 1 0 1 0 2 0 1 1 0 0 0-2 0m4 0a1 1 0 1 0 2 0 1 1 0 0 0-2 0"></path><path d="M7.5 8.5c1.4-1.1 3.2-1.5 4.5-1.5s3.1.4 4.5 1.5c.7.5 1.5.5 2.2 0l.5-.4c1-1 2.3-1.6 3.7-1.6h.1c.6 0 1.1.5 1.1 1.1v2.1c0 3.7-2 7.1-5.3 8.8l-.5.2c-.8.4-1.7.4-2.5 0l-.5-.2C12 17.1 10 13.7 10 10V7.9c0-.6.5-1.1 1.1-1.1h.1c1.4 0 2.7.6 3.7 1.6l.5.4c.7.5 1.5.5 2.2 0"></path></svg>
+    </a>
+  </div>
+  <div class="footer-copy">© <span id="year"></span> NexLink · Proudly based in Chicago · Visits start at $125</div>
+</footer>
+<div class="signature">Bodin Praphanthongchai</div>
+<div class="version">Website Version 1.4.0</div>
+
+<!-- FLOATING CHAT SUPPORT -->
+<button class="floating-chat-btn" id="chatBtn" aria-label="Open chat support">
+  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+</button>
+
+<div class="chat-overlay" id="chatOverlay">
+  <div class="chat-header">
+    <span>How can I help you?</span>
+    <button class="chat-close-btn" id="closeChat" aria-label="Close chat">&times;</button>
+  </div>
+  <div class="chat-body">
+    <div id="chatMessages" class="chat-messages"></div>
+    <div id="chatOptionsContainer" style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 12px;">
+      <a href="mailto:info@nexlink.tech" class="chat-option">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+        <span>Send an Email</span>
+      </a>
+      <a href="#contact" class="chat-option" onclick="openContactModal(event)">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"></path><circle cx="12" cy="13" r="3"></circle></svg>
+        <span>Book a Visit</span>
+      </a>
+    </div>
+    <div style="display: flex; gap: 8px; padding-top: 12px; border-top: 1px solid var(--border);">
+      <input type="text" id="agentInput" placeholder="Ask AI..." aria-label="Ask the AI agent" style="flex: 1; padding: 8px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg); color: var(--text); font-size: 0.85rem;">
+      <button id="agentSubmit" class="btn-primary" style="padding: 8px 16px; border-radius: 8px; font-size: 0.8rem;">Ask</button>
+    </div>
+  </div>
+</div>
+
+<!-- BACK TO TOP -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="18 15 12 9 6 15"></polyline></svg>
+</button>
+
+<script src="app.js" defer></script>
+</body>
+</html>

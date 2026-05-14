@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 120">
+  <title>NexLink Logo - Light Mode</title>
+  <defs>
+    <linearGradient id="silverGradLight" x1="0" y1="0" x2="0" y2="1"> <!-- Using light mode silver -->
+      <stop offset="0%" stop-color="#606060"/>
+      <stop offset="50%" stop-color="#404040"/>
+      <stop offset="100%" stop-color="#202020"/>
+    </linearGradient>
+    <linearGradient id="orangeGradLight" x1="0" y1="0" x2="0" y2="1"> <!-- Using light mode orange -->
+      <stop offset="0%" stop-color="#ff8a2a"/>
+      <stop offset="50%" stop-color="#bf5a00"/>
+      <stop offset="100%" stop-color="#8c4200"/>
+    </linearGradient>
+    <radialGradient id="flareGradLight" cx="50%" cy="50%" r="50%"> <!-- Using light mode flare -->
+      <stop offset="0%" stop-color="#ffb870" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#bf5a00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="540" height="120" fill="#fcfaf8" rx="12"/>
+  <text x="10" y="92" font-family="Plus Jakarta Sans, sans-serif" font-weight="700" font-size="85" fill="url(#silverGradLight)" style="letter-spacing:-4px">Nex</text>
+  <g transform="translate(175, 12)">
+    <path d="M40 0 L75 0 L35 95 L0 95 Z" fill="url(#silverGradLight)"/>
+    <path d="M60 0 L95 0 L55 95 L20 95 Z" fill="url(#orangeGradLight)" opacity="0.9" transform="translate(10, 5)"/>
+    <path d="M80 0 L115 0 L75 95 L40 95 Z" fill="url(#orangeGradLight)" opacity="0.8" transform="translate(20, 10)"/>
+    <circle cx="68" cy="48" r="20" fill="url(#flareGradLight)"/>
+  </g>
+  <text x="325" y="92" font-family="Plus Jakarta Sans, sans-serif" font-weight="700" font-size="85" fill="url(#orangeGradLight)" style="letter-spacing:-4px">Link</text>
+</svg>

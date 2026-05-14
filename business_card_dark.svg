@@ -1,0 +1,94 @@
+<svg width="1050" height="1300" viewBox="0 0 1050 1300" xmlns="http://www.w3.org/2000/svg">
+  <title>NexLink Business Card - Dark Mode</title>
+  <defs>
+    <linearGradient id="silverCardDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#b0b0b0"/>
+      <stop offset="100%" stop-color="#808080"/>
+    </linearGradient>
+    <linearGradient id="orangeCardDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffb870"/>
+      <stop offset="50%" stop-color="#ff8a2a"/>
+      <stop offset="100%" stop-color="#bf5a00"/>
+    </linearGradient>
+    <radialGradient id="flareGradDark" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#ff8a2a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- FRONT -->
+  <g transform="translate(0,0)">
+    <rect width="1050" height="600" fill="#0e0e0e" rx="20"/>
+    <path d="M0 80H1050M0 520H1050" stroke="#ff8a2a" stroke-opacity="0.1" stroke-width="1"/>
+    
+    <!-- NexLink Logo (Mathematically Centered: (1050 - (540 * 0.814)) / 2 = 305.2) -->
+    <g transform="translate(305.2, 229.1) scale(0.814)">
+      <text x="10" y="92" font-family="Plus Jakarta Sans, sans-serif" font-weight="700" font-size="85" fill="url(#silverCardDark)" style="letter-spacing:-4px">Nex</text>
+      <g transform="translate(175, 12)">
+        <path d="M40 0 L75 0 L35 95 L0 95 Z" fill="url(#silverCardDark)"/>
+        <path d="M60 0 L95 0 L55 95 L20 95 Z" fill="url(#orangeCardDark)" opacity="0.9" transform="translate(10, 5)"/>
+        <path d="M80 0 L115 0 L75 95 L40 95 Z" fill="url(#orangeCardDark)" opacity="0.8" transform="translate(20, 10)"/>
+        <circle cx="68" cy="48" r="20" fill="url(#flareGradDark)"/>
+      </g>
+      <text x="325" y="92" font-family="Plus Jakarta Sans, sans-serif" font-weight="700" font-size="85" fill="url(#orangeCardDark)" style="letter-spacing:-4px">Link</text>
+    </g>
+    
+    <text x="525" y="354.4" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="500" font-size="22" fill="#ff8a2a" letter-spacing="3">// EXPERT ON-SITE TECH SUPPORT</text>
+  </g>
+
+  <text x="525" y="660" text-anchor="middle" font-family="monospace" font-size="14" fill="#666">DARK MODE DESIGN · FRONT (TOP) / BACK (BOTTOM)</text>
+
+  <!-- BACK -->
+  <g transform="translate(0,700)">
+    <rect width="1050" height="600" fill="#0e0e0e" rx="20"/>
+    <rect width="8" height="600" fill="#ff8a2a"/>
+    
+    <g transform="translate(60, 80)">
+      <text font-family="Plus Jakarta Sans, sans-serif" font-weight="700" font-size="48" fill="#ffffff">Bodin Praphanthongchai</text>
+      <text y="50" font-family="JetBrains Mono, monospace" font-weight="500" font-size="22" fill="#ff8a2a">Systems Specialist // On-Site Expert</text>
+      <g transform="translate(0, 160)" font-family="Inter, sans-serif" font-size="20">
+        <text fill="#a0a0a0">EMAIL:</text>
+        <text x="100" fill="#ffffff">info@nexlink.tech</text>
+        <text y="50" fill="#a0a0a0">WEB:</text>
+        <text x="100" y="50" fill="#ffffff">www.nexlink.tech</text>
+        <text y="100" fill="#a0a0a0">PHONE:</text>
+        <text x="100" y="100" fill="#ffffff">+1 (773) 555-TECH</text>
+        <text y="150" fill="#a0a0a0">AREA:</text>
+        <text x="100" y="150" fill="#ffffff">Chicago &amp; Suburbs</text>
+      </g>
+    </g>
+    
+    <g transform="translate(60, 440)">
+      <g stroke="#222" fill="#161616">
+        <rect width="44" height="44" rx="14"/>
+        <rect x="60" width="44" height="44" rx="14"/>
+        <rect x="120" width="44" height="44" rx="14"/>
+        <rect x="180" width="44" height="44" rx="14"/>
+        <rect x="240" width="44" height="44" rx="14"/>
+      </g>
+      <g stroke="#ff8a2a" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(10, 10)"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></g>
+        <g transform="translate(70, 10)"><path d="M4 4l11.733 16h4.267l-11.733 -16zM4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"/></g>
+        <g transform="translate(130, 10)"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></g>
+        <g transform="translate(190, 10)"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></g>
+        <g transform="translate(250, 10)"><path d="M9 12a1 1 0 1 0 2 0 1 1 0 0 0-2 0m4 0a1 1 0 1 0 2 0 1 1 0 0 0-2 0"></path><path d="M7.5 8.5c1.4-1.1 3.2-1.5 4.5-1.5s3.1.4 4.5 1.5c.7.5 1.5.5 2.2 0l.5-.4c1-1 2.3-1.6 3.7-1.6h.1c.6 0 1.1.5 1.1 1.1v2.1c0 3.7-2 7.1-5.3 8.8l-.5.2c-.8.4-1.7.4-2.5 0l-.5-.2C12 17.1 10 13.7 10 10V7.9c0-.6.5-1.1 1.1-1.1h.1c1.4 0 2.7.6 3.7 1.6l.5.4c.7.5 1.5.5 2.2 0"></path></g>
+      </g>
+    </g>
+
+    <g transform="translate(620, 180)">
+      <rect width="370" height="350" rx="16" fill="#161616" stroke="#222"/>
+      <g transform="translate(30, 45)">
+        <text font-family="JetBrains Mono, monospace" font-weight="700" font-size="18" fill="#ff8a2a" letter-spacing="1">CORE SERVICES:</text>
+        <g transform="translate(0, 40)" font-family="Inter, sans-serif" font-size="17" fill="#ddd">
+          <text y="0">● Laptop Optimization</text>
+          <text y="35">● PC Performance</text>
+          <text y="70">● Mesh Networking</text>
+          <text y="105">● NAS &amp; Storage</text>
+          <text y="140">● Smart Home / IP Cam</text>
+          <text y="175">● Data Recovery</text>
+        </g>
+      </g>
+    </g>
+    <text x="1020" y="570" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="12" fill="#444" opacity="0.3">v1.2.0</text>
+  </g>
+</svg>
