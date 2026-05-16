@@ -1,10 +1,19 @@
-# NexLink · Expert On-Site Tech Support v2.0.0
+# NexLink · Tech Support That Actually Shows Up
+### Systems Specialist // On-Site Expert · v2.0.0
 
 Professional in-home tech support for Chicago and the surrounding suburbs. This repository contains the source code for the NexLink web platform and high-performance branding assets.
 
 ## 🚀 Project Overview
 
-NexLink makes high-end tech support feel personal again. Instead of waiting weeks for a repair shop, I bring 30 years of engineering experience directly to your door.
+NexLink makes high-end tech support feel personal again. For 30 years, I've been fixing the tech problems that drive people crazy—bringing expert engineering directly to your door. No jargon, no hidden fees, and no waiting in line at a repair shop.
+
+### Core Services
+- **Laptop & PC Optimization:** Performance tuning, hardware upgrades, and system cleaning.
+- **Mesh Networking:** Eliminating WiFi dead zones for a seamless home experience.
+- **NAS & Storage:** Secure data backup and protection for your digital memories.
+- **Smart Home & IP Cams:** Integrating security and automation so it actually makes life easier.
+- **Tech Help for Seniors:** Patient, one-on-one lessons and simplified setup.
+- **Small Business IT:** Professional infrastructure support without the corporate overhead.
 
 ### Key Features
 - **Modular Architecture:** Refactored for maintainability with separated HTML, CSS, and JS components.
@@ -90,7 +99,7 @@ The server will start at `http://localhost:3000`
 - **SSL/HTTPS:** [SSL Labs](https://www.ssllabs.com/ssltest/)
 
 ## 🤝 Contact
-**Bodin Praphanthongchai**  
+**Bodin "Pete" Praphanthongchai**  
 Email: info@nexlink.tech  
 Website: www.nexlink.tech
 

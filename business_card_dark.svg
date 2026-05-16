@@ -33,7 +33,7 @@
       <text x="325" y="92" font-family="Plus Jakarta Sans, sans-serif" font-weight="700" font-size="85" fill="url(#orangeCardDark)" style="letter-spacing:-4px">Link</text>
     </g>
     
-    <text x="525" y="354.4" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="500" font-size="22" fill="#ff8a2a" letter-spacing="3">// EXPERT ON-SITE TECH SUPPORT</text>
+    <text x="525" y="354.4" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700" font-size="22" fill="#ff8a2a" letter-spacing="3">// EXPERT ON-SITE TECH SUPPORT</text>
   </g>
 
   <text x="525" y="660" text-anchor="middle" font-family="monospace" font-size="14" fill="#666">DARK MODE DESIGN · FRONT (TOP) / BACK (BOTTOM)</text>
@@ -44,7 +44,7 @@
     <rect width="8" height="600" fill="#ff8a2a"/>
     
     <g transform="translate(60, 80)">
-      <text font-family="Plus Jakarta Sans, sans-serif" font-weight="700" font-size="48" fill="#ffffff">Bodin Praphanthongchai</text>
+      <text font-family="Plus Jakarta Sans, sans-serif" font-weight="700" font-size="42" fill="#ffffff">Bodin Praphanthongchai ( Pete )</text>
       <text y="50" font-family="JetBrains Mono, monospace" font-weight="500" font-size="22" fill="#ff8a2a">Systems Specialist // On-Site Expert</text>
       <g transform="translate(0, 160)" font-family="Inter, sans-serif" font-size="20">
         <text fill="#a0a0a0">EMAIL:</text>
@@ -66,7 +66,7 @@
         <rect x="180" width="44" height="44" rx="14"/>
         <rect x="240" width="44" height="44" rx="14"/>
       </g>
-      <g stroke="#ff8a2a" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <g stroke="#ff8a2a" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <g transform="translate(10, 10)"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></g>
         <g transform="translate(70, 10)"><path d="M4 4l11.733 16h4.267l-11.733 -16zM4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"/></g>
         <g transform="translate(130, 10)"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></g>
@@ -89,6 +89,6 @@
         </g>
       </g>
     </g>
-    <text x="1020" y="570" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="12" fill="#444" opacity="0.3">v1.2.0</text>
+    <text x="1020" y="570" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="12" fill="#444" opacity="0.3">v1.4.0</text>
   </g>
 </svg>

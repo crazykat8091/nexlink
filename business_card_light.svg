@@ -2,12 +2,12 @@
   <title>NexLink Business Card - Light Mode</title>
   <defs>
     <linearGradient id="silverCard" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#606060"/>
-      <stop offset="50%" stop-color="#404040"/>
-      <stop offset="100%" stop-color="#202020"/>
+      <stop offset="0%" stop-color="#404040"/>
+      <stop offset="50%" stop-color="#252525"/>
+      <stop offset="100%" stop-color="#000000"/>
     </linearGradient>
     <linearGradient id="orangeCard" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ff8a2a"/>
+      <stop offset="0%" stop-color="#d66500"/>
       <stop offset="50%" stop-color="#bf5a00"/>
       <stop offset="100%" stop-color="#8c4200"/>
     </linearGradient>
@@ -32,7 +32,7 @@
       <text x="325" y="92" font-family="Plus Jakarta Sans, sans-serif" font-weight="700" font-size="85" fill="url(#orangeCard)" style="letter-spacing:-4px">Link</text>
     </g>
     
-    <text x="525" y="354.4" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="500" font-size="22" fill="#bf5a00" letter-spacing="3">// EXPERT ON-SITE TECH SUPPORT</text>
+    <text x="525" y="354.4" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700" font-size="22" fill="#bf5a00" letter-spacing="3">// EXPERT ON-SITE TECH SUPPORT</text>
   </g>
 
   <text x="525" y="660" text-anchor="middle" font-family="monospace" font-size="14" fill="#a0a0a0">LIGHT MODE DESIGN · FRONT (TOP) / BACK (BOTTOM)</text>
@@ -43,17 +43,17 @@
     <rect width="8" height="600" fill="#bf5a00"/>
     
     <g transform="translate(60, 80)">
-      <text font-family="Plus Jakarta Sans, sans-serif" font-weight="700" font-size="48" fill="#000000">Bodin Praphanthongchai</text>
-      <text y="50" font-family="JetBrains Mono, monospace" font-weight="500" font-size="22" fill="#bf5a00">Systems Specialist // On-Site Expert</text>
+      <text font-family="Plus Jakarta Sans, sans-serif" font-weight="700" font-size="42" fill="#000000">Bodin Praphanthongchai ( Pete )</text>
+      <text y="50" font-family="JetBrains Mono, monospace" font-weight="600" font-size="22" fill="#bf5a00">Systems Specialist // On-Site Expert</text>
       <g transform="translate(0, 160)" font-family="Inter, sans-serif" font-size="20">
-        <text fill="#4a443b">EMAIL:</text>
-        <text x="100" fill="#1a1612">info@nexlink.tech</text>
-        <text y="50" fill="#4a443b">WEB:</text>
-        <text x="100" y="50" fill="#1a1612">www.nexlink.tech</text>
-        <text y="100" fill="#4a443b">PHONE:</text>
-        <text x="100" y="100" fill="#1a1612">+1 (773) 555-TECH</text>
-        <text y="150" fill="#4a443b">AREA:</text>
-        <text x="100" y="150" fill="#1a1612">Chicago &amp; Suburbs</text>
+        <text fill="#1a1612" font-weight="600">EMAIL:</text>
+        <text x="100" fill="#000000">info@nexlink.tech</text>
+        <text y="50" fill="#1a1612" font-weight="600">WEB:</text>
+        <text x="100" y="50" fill="#000000">www.nexlink.tech</text>
+        <text y="100" fill="#1a1612" font-weight="600">PHONE:</text>
+        <text x="100" y="100" fill="#000000">+1 (773) 555-TECH</text>
+        <text y="150" fill="#1a1612" font-weight="600">AREA:</text>
+        <text x="100" y="150" fill="#000000">Chicago &amp; Suburbs</text>
       </g>
     </g>
 
@@ -65,7 +65,7 @@
         <rect x="180" width="44" height="44" rx="14"/>
         <rect x="240" width="44" height="44" rx="14"/>
       </g>
-      <g stroke="#bf5a00" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <g stroke="#bf5a00" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <g transform="translate(10, 10)"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></g>
         <g transform="translate(70, 10)"><path d="M4 4l11.733 16h4.267l-11.733 -16zM4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"/></g>
         <g transform="translate(130, 10)"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></g>
@@ -75,7 +75,7 @@
     </g>
 
     <g transform="translate(620, 180)">
-      <rect width="370" height="350" rx="16" fill="#ffffff" stroke="#e8e4df"/>
+      <rect width="370" height="350" rx="16" fill="#ffffff" stroke="#d8d2c8" stroke-width="1.5"/>
       <g transform="translate(30, 45)">
         <text font-family="JetBrains Mono, monospace" font-weight="700" font-size="18" fill="#bf5a00" letter-spacing="1">CORE SERVICES:</text>
         <g transform="translate(0, 40)" font-family="Inter, sans-serif" font-size="17" fill="#1a1612">
@@ -88,6 +88,6 @@
         </g>
       </g>
     </g>
-    <text x="1020" y="570" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="12" fill="#4a443b" opacity="0.3">v1.2.0</text>
+    <text x="1020" y="570" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="12" fill="#4a443b" opacity="0.3">v1.4.0</text>
   </g>
 </svg>
